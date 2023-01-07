@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veterinaria Miis-ztli</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="./Imagenes/logo.jpg" type="image/x-icon">
 </head>
+
 <body>
     <header>
-        <nav>
+        <nav class="menu">
             <ul>
                 <li>
-                    <a href="./quienes_somos.html">¿Quienes somos?</a>
+                    <a id="quienesSomos" href="./quienes_somos.html">¿Quienes somos?</a>
                 </li>
                 <li>
                     <a href="./registro.html">Registro</a>
@@ -28,20 +32,34 @@
             </ul>
         </nav>
         <main>
-            <h1>Inicio</h1>
+        <section>
+                <h1>Inicio</h1>
         </main>
-        <div>
-            <img src="./Imagenes/inicio.jpg" alt="Imagen de inicio">
+        <div id="imagenInicio">
+            <img id="imagenInicio"
+            src="./Imagenes/inicio.jpg" alt="Imagen de inicio">
         </div>
         <div>
+            <p class="pInicio">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse dolorem deleniti corporis iure quibusdam,
+                nulla necessitatibus assumenda at voluptates magnam. Dolorum qui iste dicta voluptatem explicabo esse
+                itaque vero officiis.
+            </p>
+        </div>
+        <div>
+            <iconify-icon class="iconoAudio" icon="material-symbols:audio-file"></iconify-icon>
             <audio src="Audio/timbre.mp3" controls>
             </audio>
         </div>
     </header>
+    </section>
     <main>
-        <footer>
+        <footer id="footerIndexDerechos">
             <p>Veterinaria Miis-ztli --- Todos los derechos reservados</p>
         </footer>
     </main>
-    </body>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js">
+    </script>
+</body>
+
 </html>
